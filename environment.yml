@@ -14,3 +14,4 @@ dependencies:
   - yt
   - mayavi
   - ipyvolume
+  - spyder

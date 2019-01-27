@@ -1,0 +1,30 @@
+# Stylesheet for matplotlib
+#
+# Author: Nicolas Guarin-Zapata
+
+### Math Text
+mathtext.fontset : cm
+
+### Text
+text.color : 757575
+font.size : 10
+
+### Ticks
+xtick.color : 757575
+ytick.color : 757575
+
+### Axes
+axes.labelcolor : 757575
+axes.edgecolor : 757575
+axes.spines.right : False
+axes.spines.top : False
+
+### Lines
+lines.linewidth : 1.5
+
+### Figures
+figure.figsize : 4, 3
+
+### Legends
+legend.fancybox : False
+legend.frameon : False
