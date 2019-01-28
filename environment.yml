@@ -5,7 +5,7 @@ dependencies:
   - python=3.6
   - numpy
   - scipy
-  - matplotlib
+  - matplotlib>=2.0
   - pyqt>=5.9
   - vtk>=8
   - jupyter
