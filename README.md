@@ -9,6 +9,7 @@ visualization.
     alt="Solution of the heat equation"
     width=400>
 
+
  1. [Installation](##installation-instructions)
  2. [Optional installation](##optional-installation)
  3. [Checking the installation](##checking-the-installation)
@@ -57,15 +58,16 @@ activate scivistutorial
 ## Optional installation
 
 ### ParaView
-We would also discuss ParaView as platform for visualization. The suggested
+
+We would also discuss ParaView as a platform for visualization. The suggested
 installation method is to download the package for your particular operative
 system on the [official websise](https://www.paraview.org/download/).
 
 ### vtki
 
-``vtki`` (previously known as VTKInterface) is a VTK helper module that takes
-a different approach on interfacing with VTK through NumPy and direct array
-access.
+``vtki`` (previously known as ``VTKInterface``) is a VTK helper module that
+takes a different approach on interfacing with VTK through NumPy and direct
+array access.
 
 To install ``vtki`` use
 
@@ -75,10 +77,10 @@ in your environment.
 
 ## Checking the installation
 
-After installation you can check if everything is working running
+After installation you can check if everything is installed
 
     python check_install.py
 
-To run some examples
+To check if everything is working run the demos with
 
     python demo.py
