@@ -77,4 +77,8 @@ in your environment.
 
 After installation you can check if everything is working running
 
-    python check_installation.py
+    python check_install.py
+
+To run some examples
+
+    python demo.py
