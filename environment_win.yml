@@ -1,0 +1,17 @@
+name: scivistutorial
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - numpy
+  - matplotlib>=2.0
+  - vtk>=8
+  - jupyter
+  - ipython
+  - mayavi
+  - yt
+  - spyder
+  - pip:
+    - scipy
+    - ipyvolume
+    - pyqt>=5.9
