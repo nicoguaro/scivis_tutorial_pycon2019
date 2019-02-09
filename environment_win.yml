@@ -1,5 +1,6 @@
 name: scivistutorial
 channels:
+  - anaconda
   - conda-forge
 dependencies:
   - python>=3.6
@@ -11,7 +12,6 @@ dependencies:
   - mayavi
   - yt
   - spyder
-  - pip:
-    - scipy
-    - ipyvolume
-    - pyqt>=5.9
+  - scipy
+  - pyqt
+  - ipyvolume

@@ -9,6 +9,11 @@ visualization.
     alt="Solution of the heat equation"
     width=400>
 
+The previous animation presents a visualization for the heat transfer in a plate with fixed temperature in the borders set to zero degrees and an initial temperature distribution following a smiley shape. If we wait long enough the solution should converge to a stationary state of zero degrees over the whole domain. The animation can be reproduced running the example provided in ``./code/heat_iteration.py``, for example
+
+    python heat_iteration.py
+
+**Contents**
 
  1. [Installation](##installation-instructions)
  2. [Optional installation](##optional-installation)
@@ -54,6 +59,10 @@ or on Windows:
 ```console
 activate scivistutorial
 ```
+
+To activate the [X3D]() backend for Mayavi, that can be used for interactive visualization in the Jupyter notebook use the following:
+
+    jupyter nbextension install --py mayavi --user
 
 ## Optional installation
 
