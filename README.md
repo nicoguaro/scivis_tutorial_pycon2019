@@ -60,7 +60,7 @@ visualization in the Jupyter notebook use the following:
 
 ```console
 jupyter nbextension install --py mayavi --user
-```    ```
+```
 
 ## Optional installation
 
