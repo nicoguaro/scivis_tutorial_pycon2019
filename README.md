@@ -52,17 +52,15 @@ required packages.
 You can activate the environment with
 
 ```console
-source activate scivistutorial
+conda activate scivistutorial
 ```
-or on Windows:
+
+To activate the [X3D]() backend for Mayavi, that can be used for interactive
+visualization in the Jupyter notebook use the following:
 
 ```console
-activate scivistutorial
-```
-
-To activate the [X3D]() backend for Mayavi, that can be used for interactive visualization in the Jupyter notebook use the following:
-
-    jupyter nbextension install --py mayavi --user
+jupyter nbextension install --py mayavi --user
+```    ```
 
 ## Optional installation
 
@@ -80,7 +78,9 @@ array access.
 
 To install ``vtki`` use
 
-    pip install vtki
+```console
+pip install vtki
+```
 
 in your environment.
 
@@ -88,8 +88,12 @@ in your environment.
 
 After installation you can check if everything is installed
 
-    python check_install.py
+```console
+python check_install.py
+```
 
 To check if everything is working run the demos with
 
-    python demo.py
+```console
+python demo.py
+```
