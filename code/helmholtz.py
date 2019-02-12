@@ -1,3 +1,9 @@
+"""
+Visualize the field of a Helmholtz coil using Mayavi.
+
+Taken from: http://scipy-lectures.org/packages/3d_plotting/index.html
+"""
+
 import numpy as np
 from scipy import stats
 
