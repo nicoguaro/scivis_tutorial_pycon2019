@@ -97,3 +97,8 @@ To check if everything is working run the demos with
 ```console
 python demo.py
 ```
+
+## License
+All code is under MIT license and media under Creative Commons Attribute.
+
+The content of this repository is licensed under the [Creative Commons Attribution 4.0 license](http://choosealicense.com/licenses/cc-by-4.0/), and the source code that accompany the content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
