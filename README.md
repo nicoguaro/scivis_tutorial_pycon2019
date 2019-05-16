@@ -9,7 +9,12 @@ visualization.
     alt="Solution of the heat equation"
     width=400>
 
-The previous animation presents a visualization for the heat transfer in a plate with fixed temperature in the borders set to zero degrees and an initial temperature distribution following a smiley shape. If we wait long enough the solution should converge to a stationary state of zero degrees over the whole domain. The animation can be reproduced running the example provided in ``./code/heat_iteration.py``, for example
+The previous animation presents a visualization for the heat transfer in a
+plate with fixed temperature in the borders set to zero degrees and an initial
+temperature distribution following a smiley shape. If we wait long enough the
+solution should converge to a stationary state of zero degrees over the whole
+domain. The animation can be reproduced running the example provided in
+``./code/heat_iteration.py``, for example
 
     python heat_iteration.py
 
@@ -101,4 +106,7 @@ python demo.py
 ## License
 All code is under MIT license and media under Creative Commons Attribute.
 
-The content of this repository is licensed under the [Creative Commons Attribution 4.0 license](http://choosealicense.com/licenses/cc-by-4.0/), and the source code that accompany the content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
+The content of this repository is licensed under the
+[Creative Commons Attribution 4.0 license](http://choosealicense.com/licenses/cc-by-4.0/),
+and the source code that accompany the content is licensed under the
+[MIT license](https://opensource.org/licenses/mit-license.php).
